@@ -6,12 +6,6 @@ import re
 
 
 #driver = webdriver.Chrome()
-chromeOptions = webdriver.ChromeOptions()
-prefs = {"download.default_directory" : "/Users/derickjacquez/Desktop"}
-chromeOptions.add_experimental_option("prefs",prefs)
-chromedriver = "/Users/derickjacquez/Desktop/chromedriver"
-driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
-
 
 origin = "houston"
 depart = "boston"
